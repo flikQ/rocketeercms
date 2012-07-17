@@ -1,0 +1,116 @@
+
+TinyBrowser Installation Method 1
+=================================
+
+The standard TinyBrowser installation, this integrates TinyBrowser as a custom
+file browseer with TinyMCE.
+
+1) Copy the tinybrowser folder and contents to your TinyMCE plugins directory.
+
+2) Place the following javascript link after the link to TinyMCE (tiny_mce.js):
+
+   <script type="text/javascript"
+   src="/tiny_mce/plugins/tinybrowser/tb_tinymce.js.php"></script>
+
+   ***NOTE:*** The above link assumes TinyMCE is installed in your website root
+   directory, you will need to amend the link to your specific setup!
+
+3) Add this line to your TinyMCE init:
+
+   file_browser_callback : "tinyBrowser"
+
+4) Edit the TinyBrowser configuration file (config_tinybrowser.php). The most
+   important settings are the file paths (these will be automatically created on
+   your server by TinyBrowser if they do not exist) and also the security
+   settings - if $_SESSION['tinybrowser']['sessioncheck'] is not configured you will only be
+   able to browse files.
+
+   ***NOTE:*** If your server is Unix-based. you may wish to modify the 
+   $_SESSION['tinybrowser']['unixpermissions'] config value, which decides permissions.
+
+5) All done! Now you will see a browse button in the TinyMCE dialog windows for
+   plugins like image, media and link - just click this button and TinyBrowser
+   will appear.
+
+
+TinyBrowser Installation Method 2
+=================================
+
+This installation allows TinyBrowser to be used in 'stand-alone' mode, for
+integration with any web application.
+
+1) Copy the tinybrowser folder and contents to your server.
+
+2) Place the following javascript link within the <head> tag on the page you
+   require TinyBrowser:
+
+   <script language="javascript" type="text/javascript"
+   src="/tinybrowser/tb_standalone.js.php"></script>
+
+   ***NOTE:*** The above link assumes TinyBrowser is installed in your website
+   root directory, you will need to amend the link to your specific setup!
+
+3) Edit the TinyBrowser configuration file (config_tinybrowser.php). The most
+   important settings are the file paths (these will be automatically created on
+   your server by TinyBrowser if they do not exist) and also the security
+   settings - if $_SESSION['tinybrowser']['sessioncheck'] is not configured you will only be
+   able to browse files.
+
+   ***NOTE:*** If your server is Unix-based. you may wish to modify the
+   $_SESSION['tinybrowser']['unixpermissions'] config value, which decides permissions.
+
+4) To launch TinyBrowser use the following javascript function:
+
+   tinyBrowserPopUp('type','elementid');
+
+   'type' can contain 'image', 'media' or 'file' - corresponding to the type of
+   file you want TinyBrowser to manage.
+
+   'elementid' is the id of the page element you want populate with the file url
+   TinyBrowser returns - this is generally a form text input. If you want to
+   immediately display the image then create an <img> tag with the same element
+   id, only suffixed with img - e.g. elementidimg.
+
+   
+TinyBrowser Installation Method 3
+=================================
+
+This installation method integrates TinyBrowser as a custom file browser with
+FCKeditor.
+
+1) Copy the tinybrowser folder and contents to your server.
+
+2) Edit your fckconfig.js file as follows (replace existing lines).
+
+   To enable TinyBrowser for files:
+   FCKConfig.LinkBrowserURL = '/yourtinybrowserurl/tinybrowser.php?type=file';
+
+   To enable TinyBrowser for images:
+   FCKConfig.ImageBrowserURL = '/yourtinybrowserurl/tinybrowser.php?type=image';
+
+   To enable TinyBrowser for Flash:
+   FCKConfig.FlashBrowserURL = '/yourtinybrowserurl/tinybrowser.php?type=media';
+
+   If you wish to disable the default FCKeditor file uploads (recommended), set
+   the following:
+   FCKConfig.LinkUpload = false;
+   FCKConfig.ImageUpload = false;
+   FCKConfig.FlashUpload = false;
+
+3) Edit the TinyBrowser configuration file (config_tinybrowser.php).
+
+   Change the $_SESSION['tinybrowser']['integration'] line:
+   $_SESSION['tinybrowser']['integration'] = 'fckeditor';
+
+   The other most important settings are the file paths (these will be
+   automatically created on your server by TinyBrowser if they do not exist) and
+   also the security settings - if $_SESSION['tinybrowser']['sessioncheck'] is not
+   configured you will only be able to browse files.
+
+   ***NOTE:*** If your server is Unix-based. you may wish to modify the
+   $_SESSION['tinybrowser']['unixpermissions'] config value, which decides permissions.
+
+4) All done! Now when you click the Browse Server button in the FCKeditor dialog
+   windows for image, Flash and link, TinyBrowser will appear instead of the
+   standard FCKeditor file browser.
+

@@ -1,0 +1,22 @@
+Configurations Guide
+=======================
+
+Recently TinyBrowser has been modified for better security enhancement. 
+This might cause you some troubles in installing or running it. 
+
+.htaccess
+=========
+htaccess.txt should be changed to .htaccess . It denies access to 
+error log file by default. 
+
+Debugging On
+============
+If you want to see verbose error, you can set true to
+
+$_SESSION['tinybrowser']['debug_mode'] = true;
+
+
+Other Configurations
+=====================
+Please take a look at config_tinybrowser.php - comments are added 
+to each configuration option.

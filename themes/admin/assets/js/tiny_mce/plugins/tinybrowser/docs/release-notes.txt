@@ -1,0 +1,204 @@
+Version Notes
+=============
+
+TinyBrowser 1.42 - released 07/06/2010
+--------------------------------------
+New Features:
+Added Turkish language file.
+
+Changes:
+Changed default behaviour around security. TinyBrowser now only allows file
+browsing unless session security is enabled.
+Error log file now configurable and disabled by default.
+
+Bug Fixes:
+Added token-based protection against CSFR.
+Increased level of validation on request variables.
+Fixed issue with Rename function.
+
+
+TinyBrowser 1.41 - released 05/05/2009
+--------------------------------------
+New Features:
+Added folder argument to tinyBrowserPopUp function, so that a sub-folder can be
+selected when using TinyBrowser in standalone mode.
+Added error logging - errors are output to error.log in tinybrowser directory.
+Added Spanish, Croatian, Slovakian, Latvian, Czech, Italian, Hungarian, Swedish
+and Russian language files (thanks to all who contributed).
+
+Changes:
+Prohibited files are no longer browseable (if the paths defined contained files
+of this type).
+Only defined file extensions of a file type are browseable and editable.
+Changed stripos function to strpos to ensure PHP4 compatability.
+Updated createfolder function to work recursively with PHP4.
+Remember current folder after upload.
+Changed filename clean regex to be less strict.
+
+Bug Fixes:
+Fixed transparency support for gif and png (thanks to Dirk Bohl).
+Added 'no-cache' meta tag to ensure latest page is served by web browser.
+Added another fix for no style issue with TinyMCE integration.
+Security fix for browse type when set to non-existant value.
+Security fix for malicious setting of folder get variable to relative values.
+
+TinyBrowser 1.40 - released N/A
+--------------------------------------
+New Features:
+Added multiple folder support with a separate Folders tab to allow folder
+creation, renaming and deletion.
+Added Move action to Edit tab, to allow moving of files between folders.
+Added Danish language file.
+Added 'delayprocess' to config file - this can be set if server response is
+delayed, preventing uploaded files being processed correctly.
+Added width and height config values for the TinyBrowser pop up window size.
+Added 'cleanfilename' flag to config file, to remove disallowed characters
+from filenames on upload (set to true by default).
+  
+Changes:
+Added recursive flag to createfolder function, to allow TinyBrowser to 
+create full upload path.
+Changed default window size to 770px x 480px.
+Minor code optimisation.
+Prohibited files are now not browseable (if the paths defined contained files of
+this type).
+Now only defined file extensions of a file type are browseable and editable.
+Changed stripos function call to strpos to ensure PHP4 compatability.
+Updated createfolder function to work recursively with PHP4.
+Remember current folder after upload.
+
+Bug Fixes:
+Fixed minor bug causing elementid to be lost after file upload in
+stand-alone mode.
+Fixed stand-alone javascript selectURL function bug that prevented 
+TinyBrowser window close on selection. 
+Fixed bug in Flash upload that prevented folder permission error reporting.
+Fixed bug in image resize and rotate functions that converted all types
+to jpeg.
+
+TinyBrowser 1.33 - released 23/09/2008
+--------------------------------------
+New Features:
+Added German, Finnish, Traditional and Simplified Chinese language files.
+Added session control workaround for upload_file.php (called by Flash).
+
+Changes:
+Flash uploader has been modified to display the file type and also to fix
+strange progress bar behaviour when uploading multiple files. As the
+upload process is not concurrent, I have removed the individual progress
+bars and replaced them with one (progress is still per file however).
+When the Upload button is pressed all the buttons now disappear.
+
+Bug Fixes:
+Fixed minor bug that affected css layout after file upload.
+Fixed bug introduced in 1.32 that prevented automatic image resize on
+upload.
+Added 'HTTP/1.1 200' response to upload_file.php script, to address
+Flash bug in some Mac setups.
+Added check for valid images in Browse and Edit tabs - non-image files
+are still listed but error producing image properties code is bypassed.
+	
+
+TinyBrowser 1.32 - released 17/09/2008
+--------------------------------------
+New Features:
+None.
+
+Changes:
+The upload path is now passed to the Flash upload widget, for better
+compatibility with Firefox and Opera when you set your paths using session
+variables (this is due to a Flash bug that loses session data).
+Files are no longer uploaded to a temporary directory, so there's now no
+folder creation during the upload process. Instead, file name extensions
+are suffixed with an underscore until processed. (This renders them
+useless until verification).
+The thumbs directory has been changed to '_thumbs'.
+
+Bug Fixes:
+Fixed security hole - previously, it was possible to directly
+submit files to the upload_file.php script. Due to the Flash session bug,
+normal session control does not work. Instead, a hash string check has been
+added to the upload_file.php script and the installation instructions
+amended.
+   
+TinyBrowser 1.31 - released 16/09/2008
+--------------------------------------
+New Features:
+None.
+
+Changes:
+Added prohibited files logic to the file_upload.php script (previously
+located only in file_process.php script).
+Changed duplicate file handling behaviour - TinyBrowser now discards
+files with the same name.
+
+Bug Fixes:
+None.
+
+TinyBrowser 1.30 - released 12/09/2008
+--------------------------------------
+New Features:
+'Stand-alone' mode, for use without TinyMCE.
+Optional and configurable pagination, to break results down into pages.
+New configuration option, $_SESSION['tinybrowser']['link'], allows the passback link to
+be different to the upload path.
+Added automatic creation of upload directories (with definable chmod for Unix
+servers).
+Added alert messages for errors and actions.
+Multi-lingual support - credit to Francis Rebouças 
+(francisreboucas[at]gmail[dot]com) for idea, design, implementation and 
+Portugese language file.
+Experimental support for FCKeditor.
+
+Changes:
+Rationalised TinyBrowser file and folder names and structure (brought in line
+with TinyMCE plugin specification).
+Revised documentation.
+After file upload user is now directed back to upload tab instead of the
+browse tab.
+   
+Bug Fixes:
+Fixed security hole - prohibited file extensions not obeyed due to error in
+inherited code. 
+Fixed small issue with edit / delete permissions (not consistently hiding
+edit tab).
+
+TinyBrowser 1.20 - released 20/08/2008
+--------------------------------------
+New Features:
+Added thumbnail on hover for detail view (images only). Note: not working in
+IE6.
+Added Edit tab - allows file rename, resize and rotate (last two for images
+only). Also moved delete action to here.
+Added configurable automatic image resize on upload.
+
+Changes:
+Moved file thumbnail generation to upload process.
+Changed table css to match Flash upload.
+Improved thumbnail view layout.
+Removed the form select elements for sort by and type, and made the table
+column headers clickable.
+
+Bug Fixes:
+Changed default $tinymce['docroot'] value to
+rtrim($_SERVER['DOCUMENT_ROOT'],'/') - this fixes an issue with server setups
+that return a value with a '/' suffix.
+Removed .htaccess file after various bug reports - doesn't appear to be
+required for majority of server setups.
+Fixed silly bug with thumbnail urls that could prevent generation and viewing
+under some server setups.
+Fixed various other minor bugs and tidied code.
+
+TinyBrowser 1.10 
+----------------
+Adjusted layout of file upload.
+Added facility to limit permitted file upload size (separate values for each
+file type).
+Amended installation instructions for clarity.
+Tested as working in Opera 9.
+
+TinyBrowser 1.00
+----------------
+Tested in Firefox 2 and 3, Internet Explorer 6 and 7 and Safari 3.
+Requires Adobe Flash Player 9.
+

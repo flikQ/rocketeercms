@@ -1,0 +1,24 @@
+Troubleshooting
+===============
+
+If you receive a 403, 406 or 412 status error on uploading files, please create
+an .htaccess file in your tinybrowser directory with the following contents:
+
+SecFilterEngine Off
+SecFilterScanPOST Off
+
+If you use Linux and the Squid proxy, you need to add a "ignore_expect_100 on"
+flag to the squid config file to avoid a 417 status error.
+
+If you use HTTP authentication, then uploading via the Flash component will
+cause issues. As a workaround, place an .htaccess file in your tinybrowser
+directory with the following contents:
+
+<Files upload_file.php>
+Order Allow,Deny
+Allow from all
+Satisfy any
+</Files>
+
+Note on the above - this effectively removes the HTTP authentication for the
+upload_file.php file!

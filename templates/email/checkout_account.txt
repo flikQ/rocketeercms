@@ -1,0 +1,8 @@
+Thank you {name}.
+
+Your account for Team Dignitas has now been created.
+
+You can login at {login_url} with the following details:
+
+Email: {email}
+Password: {password}

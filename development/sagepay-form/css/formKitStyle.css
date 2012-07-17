@@ -1,0 +1,243 @@
+/* CSS Document */
+
+body 
+{
+    margin: 12px;
+    padding: 0px;
+    text-align: center;
+}
+
+form
+{
+    padding: 0px; 
+    margin: 0px;
+}
+
+p 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:  #666666;
+	margin-left: 10px;
+}
+
+ul 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:  #666666;
+}
+
+td 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:  #666666;
+}
+
+a 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:  #006699;
+}
+
+a:link
+{
+    text-decoration: none;
+}
+a:visted 
+{
+    text-decoration: none;
+}
+a:hover 
+{
+    text-decoration: underline;
+}
+
+#pageContainer
+{
+	margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    width: 860px;
+}
+
+#pageHeader 
+{
+    padding: 20px 20px 20px 20px;
+    height: 40px;
+	width: 800px;
+}
+
+#content 
+{
+	color:  #666666;
+	width: 620px;
+	float: left;
+	padding: 12px;
+	text-align: left;
+    background-repeat: repeat-y;
+    background-position: top left;
+}
+
+#contentHeader 
+{
+	color:#007F64;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:22px;
+	padding-bottom: 14px;
+}
+#logo {
+    float:left;
+}
+
+#siteTitle 
+{
+	float: right;
+}
+
+.subheader 
+{
+    background-image: url(yellowBlob.png);
+    background-repeat: no-repeat;
+    background-position: 0px 22px;
+    padding: 20px 0px 8px 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #E98300;
+}
+
+.errorheader
+{
+    background-image: url(redGrad.jpg);
+    background-repeat: repeat-x;
+    background-position: top left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 12px;
+    border: #daa7a6 1px solid;
+}
+
+.smalltext 
+{
+	font-family: Arial, Helvetica;
+	font-size: 10px;
+	color:  #666666;
+}
+.code 
+{
+	font-family: courier, Arial, Helvetica;
+	font-size: 11px;
+	color:  #666666;
+}
+
+.greybar 
+{
+	background-color:#cbcbcb;
+	background-position:center;
+	background-image: url(greyglass.gif);
+	width: 865px;
+}
+	
+.greyBoxTop
+{
+    background: transparent url(greyBorderTop.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+.greyBoxBottom
+{
+    background: transparent url(greyBorderBottom.gif);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+.greyBoxSides
+{
+    background: transparent url(greyBorderSides.gif);
+    background-repeat: repeat-y;
+    background-position: top left;
+    width: 210px;
+}
+
+.resourcecontent
+{
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #675C53;
+    text-align: center;
+}
+.resourcecontent td
+{
+    padding: 15px;
+    font-size: 11px;
+}
+
+.warning 
+{
+	list-style-image:url(form_bullet.gif);
+	font-size: 12px;
+	color: #CC0000;
+}
+
+.formTable
+{
+    width: 100%;
+    border: 0px none;
+	border-collapse: collapse;
+}
+
+.formTable td
+{
+	border-top: 0px none;
+	border-right: 0px none;
+	border-left: 0px none;
+	border-bottom: 1px solid #d3d3d3;
+    padding: 3px 10px 6px 3px;
+	vertical-align: top;
+}
+
+.formFooter
+{
+    margin: 12px 0px 0px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.fieldLabel 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color:#575C53;
+	font-size:14px;
+	font-weight:normal;
+	text-align: right;
+	width: 33%;
+}	
+
+.fieldData 
+{
+	width: 70%;
+}
+
+.inputBoxDisable
+{
+    background-color: #DDDDDD;
+    border: 1px solid #999999;
+}
+.inputBoxEnable
+{
+    background-color: #FFFFFF;
+    border: 1px solid #999999;
+}
+
+.greyHzShadeBar
+{
+    height: 20px;
+    background-image: url(greyGrad.png);
+    background-repeat: repeat-x;
+    background-position: bottom left;
+}

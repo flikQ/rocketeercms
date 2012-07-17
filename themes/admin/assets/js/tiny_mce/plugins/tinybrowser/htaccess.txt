@@ -1,0 +1,4 @@
+<FilesMatch "\.log$">
+     Order allow,deny
+     Deny from all
+</FilesMatch>

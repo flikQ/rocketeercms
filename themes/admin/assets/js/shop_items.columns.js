@@ -1,0 +1,9 @@
+$(function(){
+	$('form').hide();
+	$('#add-column').click(function(e){
+		e.preventDefault();
+		$('form').show();
+		$('form').after('<br><br><br><br>');
+		$(this).remove();
+	});
+});
