@@ -91,7 +91,7 @@
 			<div id="footer">
 				<div class="inner">
 					<p>
-					Rocketeer Copyright &copy; Tiny Rocketship LTD 2011. RocketFuel is a Tiny Rocketship product.
+					Rocketeer CMS by <a href="http://www.gavinweeks.com" target="_blank">Gavin Weeks</a>.
 					</p>
 				</div>
 			</div>

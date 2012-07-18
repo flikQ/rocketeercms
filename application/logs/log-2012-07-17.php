@@ -15739,3 +15739,1634 @@ DEBUG - 2012-07-17 12:37:18 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/
 DEBUG - 2012-07-17 12:37:18 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/login.php
 DEBUG - 2012-07-17 12:37:18 --> Final output sent to browser
 DEBUG - 2012-07-17 12:37:18 --> Total execution time: 0.0872
+DEBUG - 2012-07-17 17:17:38 --> Config Class Initialized
+DEBUG - 2012-07-17 17:17:38 --> Hooks Class Initialized
+DEBUG - 2012-07-17 17:17:38 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 17:17:38 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 17:17:38 --> URI Class Initialized
+DEBUG - 2012-07-17 17:17:38 --> Router Class Initialized
+DEBUG - 2012-07-17 17:17:38 --> Output Class Initialized
+DEBUG - 2012-07-17 17:17:38 --> Input Class Initialized
+DEBUG - 2012-07-17 17:17:38 --> Security Class Initialized
+DEBUG - 2012-07-17 17:17:42 --> Config Class Initialized
+DEBUG - 2012-07-17 17:17:42 --> Hooks Class Initialized
+DEBUG - 2012-07-17 17:17:42 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 17:17:42 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 17:17:42 --> URI Class Initialized
+DEBUG - 2012-07-17 17:17:42 --> Router Class Initialized
+DEBUG - 2012-07-17 17:17:42 --> Output Class Initialized
+DEBUG - 2012-07-17 17:17:42 --> Input Class Initialized
+DEBUG - 2012-07-17 17:17:42 --> Security Class Initialized
+DEBUG - 2012-07-17 17:17:42 --> CRSF cookie Set
+DEBUG - 2012-07-17 17:17:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 17:17:42 --> Language Class Initialized
+DEBUG - 2012-07-17 17:17:42 --> Loader Class Initialized
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 17:17:42 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:42 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 17:17:42 --> Controller Class Initialized
+DEBUG - 2012-07-17 17:17:42 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 17:17:42 --> Session Class Initialized
+DEBUG - 2012-07-17 17:17:42 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 17:17:42 --> A session cookie was not found.
+DEBUG - 2012-07-17 17:17:42 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:17:42 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:17:42 --> Session routines successfully run
+DEBUG - 2012-07-17 17:17:42 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:42 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:42 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 17:17:42 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:42 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:42 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 17:17:42 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:17:42 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 17:17:42 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:42 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:42 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:17:42 --> Email Class Initialized
+DEBUG - 2012-07-17 17:17:42 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:17:42 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 17:17:42 --> Model Class Initialized
+DEBUG - 2012-07-17 17:17:42 --> Model Class Initialized
+DEBUG - 2012-07-17 17:17:42 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:42 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:42 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 17:17:42 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:17:42 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 17:17:42 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 17:17:42 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:42 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:42 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 17:17:42 --> Form Validation Class Initialized
+DEBUG - 2012-07-17 17:17:42 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/views/../partials/validation.php
+DEBUG - 2012-07-17 17:17:42 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/views/auth/sign_in.php
+DEBUG - 2012-07-17 17:17:42 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/login.php
+DEBUG - 2012-07-17 17:17:42 --> Final output sent to browser
+DEBUG - 2012-07-17 17:17:42 --> Total execution time: 0.2301
+DEBUG - 2012-07-17 17:17:49 --> Config Class Initialized
+DEBUG - 2012-07-17 17:17:49 --> Hooks Class Initialized
+DEBUG - 2012-07-17 17:17:49 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 17:17:49 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 17:17:49 --> URI Class Initialized
+DEBUG - 2012-07-17 17:17:49 --> Router Class Initialized
+DEBUG - 2012-07-17 17:17:49 --> Output Class Initialized
+DEBUG - 2012-07-17 17:17:49 --> Input Class Initialized
+DEBUG - 2012-07-17 17:17:49 --> Security Class Initialized
+DEBUG - 2012-07-17 17:17:49 --> CRSF cookie Set
+DEBUG - 2012-07-17 17:17:49 --> CSRF token verified 
+DEBUG - 2012-07-17 17:17:49 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 17:17:49 --> Language Class Initialized
+DEBUG - 2012-07-17 17:17:49 --> Loader Class Initialized
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 17:17:49 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:49 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 17:17:49 --> Controller Class Initialized
+DEBUG - 2012-07-17 17:17:49 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 17:17:49 --> Session Class Initialized
+DEBUG - 2012-07-17 17:17:49 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 17:17:49 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:17:49 --> Session routines successfully run
+DEBUG - 2012-07-17 17:17:49 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:49 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:49 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 17:17:49 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:49 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:49 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 17:17:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:17:49 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 17:17:49 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:49 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:49 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:17:49 --> Email Class Initialized
+DEBUG - 2012-07-17 17:17:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:17:49 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 17:17:49 --> Model Class Initialized
+DEBUG - 2012-07-17 17:17:49 --> Model Class Initialized
+DEBUG - 2012-07-17 17:17:49 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:49 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:49 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:17:49 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 17:17:49 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:17:49 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 17:17:49 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:49 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:49 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 17:17:49 --> Form Validation Class Initialized
+DEBUG - 2012-07-17 17:17:50 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2012-07-17 17:17:50 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:17:50 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:17:50 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/views/../partials/validation.php
+DEBUG - 2012-07-17 17:17:50 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/views/auth/sign_in.php
+DEBUG - 2012-07-17 17:17:50 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/login.php
+DEBUG - 2012-07-17 17:17:50 --> Final output sent to browser
+DEBUG - 2012-07-17 17:17:50 --> Total execution time: 0.0873
+DEBUG - 2012-07-17 17:17:59 --> Config Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Hooks Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 17:17:59 --> URI Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Router Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Output Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Input Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Security Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> CRSF cookie Set
+DEBUG - 2012-07-17 17:17:59 --> CSRF token verified 
+DEBUG - 2012-07-17 17:17:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 17:17:59 --> Language Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Loader Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 17:17:59 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:59 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Controller Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 17:17:59 --> Session Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:17:59 --> Session routines successfully run
+DEBUG - 2012-07-17 17:17:59 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:59 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:59 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 17:17:59 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:59 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:59 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 17:17:59 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:17:59 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:59 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:59 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:17:59 --> Email Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:17:59 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 17:17:59 --> Model Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Model Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:59 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:59 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 17:17:59 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:17:59 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 17:17:59 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:59 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:59 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 17:17:59 --> Form Validation Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2012-07-17 17:17:59 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:17:59 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:17:59 --> Config Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Hooks Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 17:17:59 --> URI Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Router Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Output Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Input Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Security Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> CRSF cookie Set
+DEBUG - 2012-07-17 17:17:59 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 17:17:59 --> Language Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Loader Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 17:17:59 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:59 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Controller Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 17:17:59 --> Session Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:17:59 --> Session routines successfully run
+DEBUG - 2012-07-17 17:17:59 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:59 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:59 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 17:17:59 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:59 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:59 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 17:17:59 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:17:59 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:59 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:59 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:17:59 --> Email Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:17:59 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 17:17:59 --> Model Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Model Class Initialized
+DEBUG - 2012-07-17 17:17:59 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:59 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:17:59 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:17:59 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 17:17:59 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:17:59 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 17:18:00 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:00 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:00 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 17:18:00 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/views/home/index.php
+DEBUG - 2012-07-17 17:18:00 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/admin.php
+DEBUG - 2012-07-17 17:18:00 --> Final output sent to browser
+DEBUG - 2012-07-17 17:18:00 --> Total execution time: 0.1313
+DEBUG - 2012-07-17 17:18:00 --> Config Class Initialized
+DEBUG - 2012-07-17 17:18:00 --> Hooks Class Initialized
+DEBUG - 2012-07-17 17:18:00 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 17:18:00 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 17:18:00 --> URI Class Initialized
+DEBUG - 2012-07-17 17:18:00 --> Router Class Initialized
+DEBUG - 2012-07-17 17:18:00 --> Output Class Initialized
+DEBUG - 2012-07-17 17:18:00 --> Input Class Initialized
+DEBUG - 2012-07-17 17:18:00 --> Security Class Initialized
+DEBUG - 2012-07-17 17:18:00 --> CRSF cookie Set
+DEBUG - 2012-07-17 17:18:00 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 17:18:00 --> Language Class Initialized
+DEBUG - 2012-07-17 17:18:00 --> Loader Class Initialized
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 17:18:00 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:00 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 17:18:00 --> Controller Class Initialized
+DEBUG - 2012-07-17 17:18:00 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 17:18:00 --> Session Class Initialized
+DEBUG - 2012-07-17 17:18:00 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 17:18:00 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:18:00 --> Session routines successfully run
+DEBUG - 2012-07-17 17:18:00 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:00 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:00 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 17:18:00 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:00 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:00 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 17:18:00 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:18:00 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 17:18:00 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:00 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:00 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:18:00 --> Email Class Initialized
+DEBUG - 2012-07-17 17:18:00 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:18:00 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 17:18:00 --> Model Class Initialized
+DEBUG - 2012-07-17 17:18:00 --> Model Class Initialized
+DEBUG - 2012-07-17 17:18:00 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:00 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:00 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:18:00 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 17:18:00 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:18:00 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 17:18:00 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:00 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:00 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 17:18:00 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:18:03 --> Config Class Initialized
+DEBUG - 2012-07-17 17:18:03 --> Hooks Class Initialized
+DEBUG - 2012-07-17 17:18:03 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 17:18:03 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 17:18:03 --> URI Class Initialized
+DEBUG - 2012-07-17 17:18:03 --> Router Class Initialized
+DEBUG - 2012-07-17 17:18:03 --> Output Class Initialized
+DEBUG - 2012-07-17 17:18:03 --> Input Class Initialized
+DEBUG - 2012-07-17 17:18:03 --> Security Class Initialized
+DEBUG - 2012-07-17 17:18:03 --> CRSF cookie Set
+DEBUG - 2012-07-17 17:18:03 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 17:18:03 --> Language Class Initialized
+DEBUG - 2012-07-17 17:18:03 --> Loader Class Initialized
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 17:18:03 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:03 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 17:18:03 --> Controller Class Initialized
+DEBUG - 2012-07-17 17:18:03 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 17:18:03 --> Session Class Initialized
+DEBUG - 2012-07-17 17:18:03 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 17:18:03 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:18:03 --> Session routines successfully run
+DEBUG - 2012-07-17 17:18:03 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:03 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:03 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 17:18:03 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:03 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:03 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 17:18:03 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:18:03 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 17:18:03 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:03 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:03 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:18:03 --> Email Class Initialized
+DEBUG - 2012-07-17 17:18:03 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:18:03 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 17:18:03 --> Model Class Initialized
+DEBUG - 2012-07-17 17:18:03 --> Model Class Initialized
+DEBUG - 2012-07-17 17:18:03 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:03 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:03 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:18:03 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 17:18:03 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:18:03 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 17:18:03 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:03 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:18:03 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 17:18:03 --> Pagination Class Initialized
+DEBUG - 2012-07-17 17:18:03 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/views/articles/index.php
+DEBUG - 2012-07-17 17:18:03 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/admin.php
+DEBUG - 2012-07-17 17:18:03 --> Final output sent to browser
+DEBUG - 2012-07-17 17:18:03 --> Total execution time: 0.1301
+DEBUG - 2012-07-17 17:20:04 --> Config Class Initialized
+DEBUG - 2012-07-17 17:20:04 --> Hooks Class Initialized
+DEBUG - 2012-07-17 17:20:04 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 17:20:04 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 17:20:04 --> URI Class Initialized
+DEBUG - 2012-07-17 17:20:04 --> Router Class Initialized
+DEBUG - 2012-07-17 17:20:04 --> Output Class Initialized
+DEBUG - 2012-07-17 17:20:04 --> Input Class Initialized
+DEBUG - 2012-07-17 17:20:04 --> Security Class Initialized
+DEBUG - 2012-07-17 17:20:04 --> CRSF cookie Set
+DEBUG - 2012-07-17 17:20:04 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 17:20:04 --> Language Class Initialized
+DEBUG - 2012-07-17 17:20:04 --> Loader Class Initialized
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 17:20:04 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:04 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 17:20:04 --> Controller Class Initialized
+DEBUG - 2012-07-17 17:20:04 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 17:20:04 --> Session Class Initialized
+DEBUG - 2012-07-17 17:20:04 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 17:20:04 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:20:04 --> Session routines successfully run
+DEBUG - 2012-07-17 17:20:04 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:04 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:04 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 17:20:04 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:04 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:04 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 17:20:04 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:04 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 17:20:04 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:04 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:04 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:20:04 --> Email Class Initialized
+DEBUG - 2012-07-17 17:20:04 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:04 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 17:20:04 --> Model Class Initialized
+DEBUG - 2012-07-17 17:20:04 --> Model Class Initialized
+DEBUG - 2012-07-17 17:20:04 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:04 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:04 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:20:04 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 17:20:04 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:04 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 17:20:04 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:04 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:04 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 17:20:04 --> Pagination Class Initialized
+DEBUG - 2012-07-17 17:20:04 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/views/articles/index.php
+DEBUG - 2012-07-17 17:20:04 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/admin.php
+DEBUG - 2012-07-17 17:20:04 --> Final output sent to browser
+DEBUG - 2012-07-17 17:20:04 --> Total execution time: 0.1516
+DEBUG - 2012-07-17 17:20:34 --> Config Class Initialized
+DEBUG - 2012-07-17 17:20:34 --> Hooks Class Initialized
+DEBUG - 2012-07-17 17:20:34 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 17:20:34 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 17:20:34 --> URI Class Initialized
+DEBUG - 2012-07-17 17:20:34 --> Router Class Initialized
+DEBUG - 2012-07-17 17:20:34 --> Output Class Initialized
+DEBUG - 2012-07-17 17:20:34 --> Input Class Initialized
+DEBUG - 2012-07-17 17:20:34 --> Security Class Initialized
+DEBUG - 2012-07-17 17:20:34 --> CRSF cookie Set
+DEBUG - 2012-07-17 17:20:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 17:20:34 --> Language Class Initialized
+DEBUG - 2012-07-17 17:20:34 --> Loader Class Initialized
+DEBUG - 2012-07-17 17:20:34 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 17:20:34 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 17:20:34 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 17:20:34 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 17:20:34 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 17:20:34 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 17:20:34 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 17:20:34 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 17:20:34 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 17:20:34 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 17:20:34 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 17:20:34 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 17:20:34 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 17:20:34 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 17:20:34 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 17:20:34 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 17:20:34 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 17:20:34 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 17:20:34 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 17:20:34 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 17:20:34 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:34 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 17:20:34 --> Controller Class Initialized
+DEBUG - 2012-07-17 17:20:34 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:35 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 17:20:35 --> Session Class Initialized
+DEBUG - 2012-07-17 17:20:35 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 17:20:35 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:20:35 --> Session routines successfully run
+DEBUG - 2012-07-17 17:20:35 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:35 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:35 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 17:20:35 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 17:20:35 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:35 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:35 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 17:20:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:35 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 17:20:35 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:35 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:35 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:20:35 --> Email Class Initialized
+DEBUG - 2012-07-17 17:20:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:35 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 17:20:35 --> Model Class Initialized
+DEBUG - 2012-07-17 17:20:35 --> Model Class Initialized
+DEBUG - 2012-07-17 17:20:35 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:35 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:35 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:20:35 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 17:20:35 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:35 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 17:20:35 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:35 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:35 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 17:20:35 --> Pagination Class Initialized
+DEBUG - 2012-07-17 17:20:35 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/views/articles/index.php
+DEBUG - 2012-07-17 17:20:35 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/admin.php
+DEBUG - 2012-07-17 17:20:35 --> Final output sent to browser
+DEBUG - 2012-07-17 17:20:35 --> Total execution time: 0.1084
+DEBUG - 2012-07-17 17:20:43 --> Config Class Initialized
+DEBUG - 2012-07-17 17:20:43 --> Hooks Class Initialized
+DEBUG - 2012-07-17 17:20:43 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 17:20:43 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 17:20:43 --> URI Class Initialized
+DEBUG - 2012-07-17 17:20:43 --> Router Class Initialized
+DEBUG - 2012-07-17 17:20:43 --> Output Class Initialized
+DEBUG - 2012-07-17 17:20:43 --> Input Class Initialized
+DEBUG - 2012-07-17 17:20:43 --> Security Class Initialized
+DEBUG - 2012-07-17 17:20:43 --> CRSF cookie Set
+DEBUG - 2012-07-17 17:20:43 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 17:20:43 --> Language Class Initialized
+DEBUG - 2012-07-17 17:20:43 --> Loader Class Initialized
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 17:20:43 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:43 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 17:20:43 --> Controller Class Initialized
+DEBUG - 2012-07-17 17:20:43 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 17:20:43 --> Session Class Initialized
+DEBUG - 2012-07-17 17:20:43 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 17:20:43 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:20:43 --> Session routines successfully run
+DEBUG - 2012-07-17 17:20:43 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:43 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:43 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 17:20:43 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:43 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:43 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 17:20:43 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:43 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 17:20:43 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:43 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:43 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:20:43 --> Email Class Initialized
+DEBUG - 2012-07-17 17:20:43 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:43 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 17:20:43 --> Model Class Initialized
+DEBUG - 2012-07-17 17:20:43 --> Model Class Initialized
+DEBUG - 2012-07-17 17:20:43 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:43 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:43 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:20:43 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 17:20:43 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:43 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 17:20:43 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:43 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:43 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 17:20:43 --> Pagination Class Initialized
+DEBUG - 2012-07-17 17:20:43 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/views/articles/index.php
+DEBUG - 2012-07-17 17:20:43 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/admin.php
+DEBUG - 2012-07-17 17:20:43 --> Final output sent to browser
+DEBUG - 2012-07-17 17:20:43 --> Total execution time: 0.1841
+DEBUG - 2012-07-17 17:20:48 --> Config Class Initialized
+DEBUG - 2012-07-17 17:20:48 --> Hooks Class Initialized
+DEBUG - 2012-07-17 17:20:48 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 17:20:48 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 17:20:48 --> URI Class Initialized
+DEBUG - 2012-07-17 17:20:48 --> Router Class Initialized
+DEBUG - 2012-07-17 17:20:48 --> Output Class Initialized
+DEBUG - 2012-07-17 17:20:48 --> Input Class Initialized
+DEBUG - 2012-07-17 17:20:48 --> Security Class Initialized
+DEBUG - 2012-07-17 17:20:48 --> CRSF cookie Set
+DEBUG - 2012-07-17 17:20:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 17:20:48 --> Language Class Initialized
+DEBUG - 2012-07-17 17:20:48 --> Loader Class Initialized
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 17:20:48 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:48 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 17:20:48 --> Controller Class Initialized
+DEBUG - 2012-07-17 17:20:48 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 17:20:48 --> Session Class Initialized
+DEBUG - 2012-07-17 17:20:48 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 17:20:48 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:20:48 --> Session routines successfully run
+DEBUG - 2012-07-17 17:20:48 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:48 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:48 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 17:20:48 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:48 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:48 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 17:20:48 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:48 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 17:20:48 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:48 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:48 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:20:48 --> Email Class Initialized
+DEBUG - 2012-07-17 17:20:48 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:48 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 17:20:48 --> Model Class Initialized
+DEBUG - 2012-07-17 17:20:48 --> Model Class Initialized
+DEBUG - 2012-07-17 17:20:48 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:48 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:48 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:20:48 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 17:20:48 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:48 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 17:20:48 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:48 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:48 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 17:20:48 --> Pagination Class Initialized
+DEBUG - 2012-07-17 17:20:48 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/views/articles/index.php
+DEBUG - 2012-07-17 17:20:48 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/admin.php
+DEBUG - 2012-07-17 17:20:48 --> Final output sent to browser
+DEBUG - 2012-07-17 17:20:48 --> Total execution time: 0.1121
+DEBUG - 2012-07-17 17:20:53 --> Config Class Initialized
+DEBUG - 2012-07-17 17:20:53 --> Hooks Class Initialized
+DEBUG - 2012-07-17 17:20:53 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 17:20:53 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 17:20:53 --> URI Class Initialized
+DEBUG - 2012-07-17 17:20:53 --> Router Class Initialized
+DEBUG - 2012-07-17 17:20:53 --> Output Class Initialized
+DEBUG - 2012-07-17 17:20:53 --> Input Class Initialized
+DEBUG - 2012-07-17 17:20:53 --> Security Class Initialized
+DEBUG - 2012-07-17 17:20:53 --> CRSF cookie Set
+DEBUG - 2012-07-17 17:20:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 17:20:53 --> Language Class Initialized
+DEBUG - 2012-07-17 17:20:53 --> Loader Class Initialized
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 17:20:53 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:53 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 17:20:53 --> Controller Class Initialized
+DEBUG - 2012-07-17 17:20:53 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 17:20:53 --> Session Class Initialized
+DEBUG - 2012-07-17 17:20:53 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 17:20:53 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:20:53 --> Session routines successfully run
+DEBUG - 2012-07-17 17:20:53 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:53 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:53 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 17:20:53 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:53 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:53 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 17:20:53 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:53 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 17:20:53 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:53 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:53 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:20:53 --> Email Class Initialized
+DEBUG - 2012-07-17 17:20:53 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:53 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 17:20:53 --> Model Class Initialized
+DEBUG - 2012-07-17 17:20:53 --> Model Class Initialized
+DEBUG - 2012-07-17 17:20:53 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:53 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:53 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:20:53 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 17:20:53 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:53 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 17:20:53 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:53 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:53 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 17:20:53 --> Pagination Class Initialized
+DEBUG - 2012-07-17 17:20:53 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/views/articles/index.php
+DEBUG - 2012-07-17 17:20:53 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/admin.php
+DEBUG - 2012-07-17 17:20:53 --> Final output sent to browser
+DEBUG - 2012-07-17 17:20:53 --> Total execution time: 0.1185
+DEBUG - 2012-07-17 17:20:56 --> Config Class Initialized
+DEBUG - 2012-07-17 17:20:56 --> Hooks Class Initialized
+DEBUG - 2012-07-17 17:20:56 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 17:20:56 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 17:20:56 --> URI Class Initialized
+DEBUG - 2012-07-17 17:20:56 --> Router Class Initialized
+DEBUG - 2012-07-17 17:20:56 --> Output Class Initialized
+DEBUG - 2012-07-17 17:20:56 --> Input Class Initialized
+DEBUG - 2012-07-17 17:20:56 --> Security Class Initialized
+DEBUG - 2012-07-17 17:20:56 --> CRSF cookie Set
+DEBUG - 2012-07-17 17:20:56 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 17:20:56 --> Language Class Initialized
+DEBUG - 2012-07-17 17:20:56 --> Loader Class Initialized
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 17:20:56 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:56 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 17:20:56 --> Controller Class Initialized
+DEBUG - 2012-07-17 17:20:56 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:56 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 17:20:56 --> Session Class Initialized
+DEBUG - 2012-07-17 17:20:56 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 17:20:57 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:20:57 --> Session routines successfully run
+DEBUG - 2012-07-17 17:20:57 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:57 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:57 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 17:20:57 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 17:20:57 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:57 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:57 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 17:20:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:57 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 17:20:57 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:57 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:57 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:20:57 --> Email Class Initialized
+DEBUG - 2012-07-17 17:20:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:57 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 17:20:57 --> Model Class Initialized
+DEBUG - 2012-07-17 17:20:57 --> Model Class Initialized
+DEBUG - 2012-07-17 17:20:57 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:57 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:57 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:20:57 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 17:20:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:20:57 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 17:20:57 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:57 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:20:57 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 17:20:57 --> Pagination Class Initialized
+DEBUG - 2012-07-17 17:20:57 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/views/articles/index.php
+DEBUG - 2012-07-17 17:20:57 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/admin.php
+DEBUG - 2012-07-17 17:20:57 --> Final output sent to browser
+DEBUG - 2012-07-17 17:20:57 --> Total execution time: 0.1415
+DEBUG - 2012-07-17 17:21:01 --> Config Class Initialized
+DEBUG - 2012-07-17 17:21:01 --> Hooks Class Initialized
+DEBUG - 2012-07-17 17:21:01 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 17:21:01 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 17:21:01 --> URI Class Initialized
+DEBUG - 2012-07-17 17:21:01 --> Router Class Initialized
+DEBUG - 2012-07-17 17:21:01 --> Output Class Initialized
+DEBUG - 2012-07-17 17:21:01 --> Input Class Initialized
+DEBUG - 2012-07-17 17:21:01 --> Security Class Initialized
+DEBUG - 2012-07-17 17:21:01 --> CRSF cookie Set
+DEBUG - 2012-07-17 17:21:01 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 17:21:01 --> Language Class Initialized
+DEBUG - 2012-07-17 17:21:01 --> Loader Class Initialized
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 17:21:01 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:01 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 17:21:01 --> Controller Class Initialized
+DEBUG - 2012-07-17 17:21:01 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 17:21:01 --> Session Class Initialized
+DEBUG - 2012-07-17 17:21:01 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 17:21:01 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:21:01 --> Session garbage collection performed.
+DEBUG - 2012-07-17 17:21:01 --> Session routines successfully run
+DEBUG - 2012-07-17 17:21:01 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:01 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:01 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 17:21:01 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:01 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:01 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 17:21:01 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:21:01 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 17:21:01 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:01 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:01 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:21:01 --> Email Class Initialized
+DEBUG - 2012-07-17 17:21:01 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:21:01 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 17:21:01 --> Model Class Initialized
+DEBUG - 2012-07-17 17:21:01 --> Model Class Initialized
+DEBUG - 2012-07-17 17:21:01 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:01 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:01 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:21:01 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 17:21:01 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:21:01 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 17:21:01 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:01 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:01 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 17:21:01 --> Pagination Class Initialized
+DEBUG - 2012-07-17 17:21:01 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/views/articles/index.php
+DEBUG - 2012-07-17 17:21:01 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/admin.php
+DEBUG - 2012-07-17 17:21:01 --> Final output sent to browser
+DEBUG - 2012-07-17 17:21:01 --> Total execution time: 0.1133
+DEBUG - 2012-07-17 17:21:09 --> Config Class Initialized
+DEBUG - 2012-07-17 17:21:09 --> Hooks Class Initialized
+DEBUG - 2012-07-17 17:21:09 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 17:21:09 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 17:21:09 --> URI Class Initialized
+DEBUG - 2012-07-17 17:21:09 --> Router Class Initialized
+DEBUG - 2012-07-17 17:21:09 --> Output Class Initialized
+DEBUG - 2012-07-17 17:21:09 --> Input Class Initialized
+DEBUG - 2012-07-17 17:21:09 --> Security Class Initialized
+DEBUG - 2012-07-17 17:21:09 --> CRSF cookie Set
+DEBUG - 2012-07-17 17:21:09 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 17:21:09 --> Language Class Initialized
+DEBUG - 2012-07-17 17:21:09 --> Loader Class Initialized
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 17:21:09 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:09 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 17:21:09 --> Controller Class Initialized
+DEBUG - 2012-07-17 17:21:09 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 17:21:09 --> Session Class Initialized
+DEBUG - 2012-07-17 17:21:09 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 17:21:09 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:21:09 --> Session routines successfully run
+DEBUG - 2012-07-17 17:21:09 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:09 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:09 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 17:21:09 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:09 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:09 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 17:21:09 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:21:09 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 17:21:09 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:09 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:09 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:21:09 --> Email Class Initialized
+DEBUG - 2012-07-17 17:21:09 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:21:09 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 17:21:09 --> Model Class Initialized
+DEBUG - 2012-07-17 17:21:09 --> Model Class Initialized
+DEBUG - 2012-07-17 17:21:09 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:09 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:09 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:21:09 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 17:21:09 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:21:09 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 17:21:09 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:09 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:09 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 17:21:09 --> Pagination Class Initialized
+DEBUG - 2012-07-17 17:21:09 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/views/articles/index.php
+DEBUG - 2012-07-17 17:21:09 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/admin.php
+DEBUG - 2012-07-17 17:21:09 --> Final output sent to browser
+DEBUG - 2012-07-17 17:21:09 --> Total execution time: 0.1131
+DEBUG - 2012-07-17 17:21:17 --> Config Class Initialized
+DEBUG - 2012-07-17 17:21:17 --> Hooks Class Initialized
+DEBUG - 2012-07-17 17:21:17 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 17:21:17 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 17:21:17 --> URI Class Initialized
+DEBUG - 2012-07-17 17:21:17 --> Router Class Initialized
+DEBUG - 2012-07-17 17:21:17 --> Output Class Initialized
+DEBUG - 2012-07-17 17:21:17 --> Input Class Initialized
+DEBUG - 2012-07-17 17:21:17 --> Security Class Initialized
+DEBUG - 2012-07-17 17:21:17 --> CRSF cookie Set
+DEBUG - 2012-07-17 17:21:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 17:21:17 --> Language Class Initialized
+DEBUG - 2012-07-17 17:21:17 --> Loader Class Initialized
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 17:21:17 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:17 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 17:21:17 --> Controller Class Initialized
+DEBUG - 2012-07-17 17:21:17 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 17:21:17 --> Session Class Initialized
+DEBUG - 2012-07-17 17:21:17 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 17:21:17 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:21:17 --> Session routines successfully run
+DEBUG - 2012-07-17 17:21:17 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:17 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:17 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 17:21:17 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:17 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:17 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 17:21:17 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:21:17 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 17:21:17 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:17 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:17 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:21:17 --> Email Class Initialized
+DEBUG - 2012-07-17 17:21:17 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:21:17 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 17:21:17 --> Model Class Initialized
+DEBUG - 2012-07-17 17:21:17 --> Model Class Initialized
+DEBUG - 2012-07-17 17:21:17 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:17 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:17 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:21:17 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 17:21:17 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:21:17 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 17:21:17 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:17 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:21:17 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 17:21:17 --> Pagination Class Initialized
+DEBUG - 2012-07-17 17:21:17 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/views/articles/index.php
+DEBUG - 2012-07-17 17:21:17 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/admin.php
+DEBUG - 2012-07-17 17:21:17 --> Final output sent to browser
+DEBUG - 2012-07-17 17:21:17 --> Total execution time: 0.1110
+DEBUG - 2012-07-17 17:22:20 --> Config Class Initialized
+DEBUG - 2012-07-17 17:22:20 --> Hooks Class Initialized
+DEBUG - 2012-07-17 17:22:20 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 17:22:20 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 17:22:20 --> URI Class Initialized
+DEBUG - 2012-07-17 17:22:20 --> Router Class Initialized
+DEBUG - 2012-07-17 17:22:20 --> Output Class Initialized
+DEBUG - 2012-07-17 17:22:20 --> Input Class Initialized
+DEBUG - 2012-07-17 17:22:20 --> Security Class Initialized
+DEBUG - 2012-07-17 17:22:20 --> CRSF cookie Set
+DEBUG - 2012-07-17 17:22:20 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 17:22:20 --> Language Class Initialized
+DEBUG - 2012-07-17 17:22:20 --> Loader Class Initialized
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 17:22:20 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:20 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 17:22:20 --> Controller Class Initialized
+DEBUG - 2012-07-17 17:22:20 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 17:22:20 --> Session Class Initialized
+DEBUG - 2012-07-17 17:22:20 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 17:22:20 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:22:20 --> Session routines successfully run
+DEBUG - 2012-07-17 17:22:20 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:20 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:20 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 17:22:20 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:20 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:20 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 17:22:20 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:22:20 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 17:22:20 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:20 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:20 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:22:20 --> Email Class Initialized
+DEBUG - 2012-07-17 17:22:20 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:22:20 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 17:22:20 --> Model Class Initialized
+DEBUG - 2012-07-17 17:22:20 --> Model Class Initialized
+DEBUG - 2012-07-17 17:22:20 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:20 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:20 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:22:20 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 17:22:20 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:22:20 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 17:22:20 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:20 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:20 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 17:22:20 --> Pagination Class Initialized
+DEBUG - 2012-07-17 17:22:20 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/views/articles/index.php
+DEBUG - 2012-07-17 17:22:20 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/admin.php
+DEBUG - 2012-07-17 17:22:20 --> Final output sent to browser
+DEBUG - 2012-07-17 17:22:20 --> Total execution time: 0.1155
+DEBUG - 2012-07-17 17:22:55 --> Config Class Initialized
+DEBUG - 2012-07-17 17:22:55 --> Hooks Class Initialized
+DEBUG - 2012-07-17 17:22:55 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 17:22:55 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 17:22:55 --> URI Class Initialized
+DEBUG - 2012-07-17 17:22:55 --> Router Class Initialized
+DEBUG - 2012-07-17 17:22:55 --> Output Class Initialized
+DEBUG - 2012-07-17 17:22:55 --> Input Class Initialized
+DEBUG - 2012-07-17 17:22:55 --> Security Class Initialized
+DEBUG - 2012-07-17 17:22:55 --> CRSF cookie Set
+DEBUG - 2012-07-17 17:22:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 17:22:55 --> Language Class Initialized
+DEBUG - 2012-07-17 17:22:55 --> Loader Class Initialized
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 17:22:55 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:55 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 17:22:55 --> Controller Class Initialized
+DEBUG - 2012-07-17 17:22:55 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 17:22:55 --> Session Class Initialized
+DEBUG - 2012-07-17 17:22:55 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 17:22:55 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:22:55 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:22:55 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:22:55 --> Session routines successfully run
+DEBUG - 2012-07-17 17:22:55 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:55 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:55 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 17:22:55 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:55 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:55 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 17:22:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:22:55 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 17:22:55 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:55 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:55 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:22:55 --> Email Class Initialized
+DEBUG - 2012-07-17 17:22:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:22:55 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 17:22:55 --> Model Class Initialized
+DEBUG - 2012-07-17 17:22:55 --> Model Class Initialized
+DEBUG - 2012-07-17 17:22:55 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:55 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:55 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:22:55 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 17:22:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:22:55 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 17:22:55 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:55 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:55 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 17:22:55 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/views/pages/index.php
+DEBUG - 2012-07-17 17:22:55 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/admin.php
+DEBUG - 2012-07-17 17:22:55 --> Final output sent to browser
+DEBUG - 2012-07-17 17:22:55 --> Total execution time: 0.0957
+DEBUG - 2012-07-17 17:22:57 --> Config Class Initialized
+DEBUG - 2012-07-17 17:22:57 --> Hooks Class Initialized
+DEBUG - 2012-07-17 17:22:57 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 17:22:57 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 17:22:57 --> URI Class Initialized
+DEBUG - 2012-07-17 17:22:57 --> Router Class Initialized
+DEBUG - 2012-07-17 17:22:57 --> Output Class Initialized
+DEBUG - 2012-07-17 17:22:57 --> Input Class Initialized
+DEBUG - 2012-07-17 17:22:57 --> Security Class Initialized
+DEBUG - 2012-07-17 17:22:57 --> CRSF cookie Set
+DEBUG - 2012-07-17 17:22:57 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 17:22:57 --> Language Class Initialized
+DEBUG - 2012-07-17 17:22:57 --> Loader Class Initialized
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 17:22:57 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:57 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 17:22:57 --> Controller Class Initialized
+DEBUG - 2012-07-17 17:22:57 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 17:22:57 --> Session Class Initialized
+DEBUG - 2012-07-17 17:22:57 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 17:22:57 --> XSS Filtering completed
+DEBUG - 2012-07-17 17:22:57 --> Session routines successfully run
+DEBUG - 2012-07-17 17:22:57 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:57 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:57 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 17:22:57 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:57 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:57 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 17:22:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:22:57 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 17:22:57 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:57 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:57 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:22:57 --> Email Class Initialized
+DEBUG - 2012-07-17 17:22:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:22:57 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 17:22:57 --> Model Class Initialized
+DEBUG - 2012-07-17 17:22:57 --> Model Class Initialized
+DEBUG - 2012-07-17 17:22:57 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:57 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:57 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 17:22:57 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 17:22:57 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 17:22:57 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 17:22:57 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:57 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 17:22:57 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 17:22:57 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/views/../partials/validation.php
+DEBUG - 2012-07-17 17:22:57 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/views/pages/edit.php
+DEBUG - 2012-07-17 17:22:57 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/admin/admin.php
+DEBUG - 2012-07-17 17:22:57 --> Final output sent to browser
+DEBUG - 2012-07-17 17:22:57 --> Total execution time: 0.0987
+DEBUG - 2012-07-17 21:15:51 --> Config Class Initialized
+DEBUG - 2012-07-17 21:15:51 --> Hooks Class Initialized
+DEBUG - 2012-07-17 21:15:51 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 21:15:51 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 21:15:51 --> URI Class Initialized
+DEBUG - 2012-07-17 21:15:51 --> Router Class Initialized
+DEBUG - 2012-07-17 21:15:52 --> Output Class Initialized
+DEBUG - 2012-07-17 21:15:52 --> Input Class Initialized
+DEBUG - 2012-07-17 21:15:52 --> Security Class Initialized
+DEBUG - 2012-07-17 21:15:52 --> CRSF cookie Set
+DEBUG - 2012-07-17 21:15:52 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 21:15:52 --> Language Class Initialized
+DEBUG - 2012-07-17 21:15:52 --> Loader Class Initialized
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 21:15:52 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:52 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 21:15:52 --> Controller Class Initialized
+DEBUG - 2012-07-17 21:15:52 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 21:15:52 --> Session Class Initialized
+DEBUG - 2012-07-17 21:15:52 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 21:15:52 --> A session cookie was not found.
+DEBUG - 2012-07-17 21:15:52 --> XSS Filtering completed
+DEBUG - 2012-07-17 21:15:52 --> XSS Filtering completed
+DEBUG - 2012-07-17 21:15:52 --> Session routines successfully run
+DEBUG - 2012-07-17 21:15:52 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:52 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:52 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 21:15:52 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:52 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:52 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 21:15:52 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 21:15:52 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 21:15:52 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:52 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:52 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 21:15:52 --> Email Class Initialized
+DEBUG - 2012-07-17 21:15:52 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 21:15:52 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 21:15:52 --> Model Class Initialized
+DEBUG - 2012-07-17 21:15:52 --> Model Class Initialized
+DEBUG - 2012-07-17 21:15:52 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:52 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:52 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 21:15:52 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 21:15:52 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 21:15:52 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 21:15:52 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:52 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:52 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 21:15:52 --> Pagination Class Initialized
+DEBUG - 2012-07-17 21:15:52 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/basic/views/../sidebars/main.php
+DEBUG - 2012-07-17 21:15:52 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/basic/views/articles/index.php
+DEBUG - 2012-07-17 21:15:52 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/basic/views/../widgets/userbox.php
+DEBUG - 2012-07-17 21:15:52 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/basic/basic.php
+DEBUG - 2012-07-17 21:15:52 --> Final output sent to browser
+DEBUG - 2012-07-17 21:15:52 --> Total execution time: 0.6390
+DEBUG - 2012-07-17 21:15:53 --> Config Class Initialized
+DEBUG - 2012-07-17 21:15:53 --> Hooks Class Initialized
+DEBUG - 2012-07-17 21:15:53 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 21:15:53 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 21:15:53 --> URI Class Initialized
+DEBUG - 2012-07-17 21:15:53 --> Router Class Initialized
+DEBUG - 2012-07-17 21:15:53 --> Output Class Initialized
+DEBUG - 2012-07-17 21:15:53 --> Input Class Initialized
+DEBUG - 2012-07-17 21:15:53 --> Security Class Initialized
+DEBUG - 2012-07-17 21:15:53 --> CRSF cookie Set
+DEBUG - 2012-07-17 21:15:53 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 21:15:53 --> Language Class Initialized
+DEBUG - 2012-07-17 21:15:53 --> Loader Class Initialized
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 21:15:53 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:53 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 21:15:53 --> Controller Class Initialized
+DEBUG - 2012-07-17 21:15:53 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 21:15:53 --> Session Class Initialized
+DEBUG - 2012-07-17 21:15:53 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 21:15:53 --> XSS Filtering completed
+DEBUG - 2012-07-17 21:15:53 --> Session routines successfully run
+DEBUG - 2012-07-17 21:15:53 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:53 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:53 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 21:15:53 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:53 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:53 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 21:15:53 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 21:15:53 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 21:15:53 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:53 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:53 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 21:15:53 --> Email Class Initialized
+DEBUG - 2012-07-17 21:15:53 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 21:15:53 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 21:15:53 --> Model Class Initialized
+DEBUG - 2012-07-17 21:15:53 --> Model Class Initialized
+DEBUG - 2012-07-17 21:15:53 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:53 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:53 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 21:15:53 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 21:15:53 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 21:15:53 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 21:15:53 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:53 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:53 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 21:15:53 --> Pagination Class Initialized
+DEBUG - 2012-07-17 21:15:53 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/basic/views/../sidebars/main.php
+DEBUG - 2012-07-17 21:15:53 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/basic/views/articles/index.php
+DEBUG - 2012-07-17 21:15:53 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/basic/views/../widgets/userbox.php
+DEBUG - 2012-07-17 21:15:53 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/basic/basic.php
+DEBUG - 2012-07-17 21:15:53 --> Final output sent to browser
+DEBUG - 2012-07-17 21:15:53 --> Total execution time: 0.0913
+DEBUG - 2012-07-17 21:15:54 --> Config Class Initialized
+DEBUG - 2012-07-17 21:15:54 --> Hooks Class Initialized
+DEBUG - 2012-07-17 21:15:54 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 21:15:54 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 21:15:54 --> URI Class Initialized
+DEBUG - 2012-07-17 21:15:54 --> Router Class Initialized
+DEBUG - 2012-07-17 21:15:54 --> Output Class Initialized
+DEBUG - 2012-07-17 21:15:54 --> Input Class Initialized
+DEBUG - 2012-07-17 21:15:54 --> Security Class Initialized
+DEBUG - 2012-07-17 21:15:54 --> CRSF cookie Set
+DEBUG - 2012-07-17 21:15:54 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 21:15:54 --> Language Class Initialized
+DEBUG - 2012-07-17 21:15:54 --> Loader Class Initialized
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 21:15:54 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:54 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 21:15:54 --> Controller Class Initialized
+DEBUG - 2012-07-17 21:15:54 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 21:15:54 --> Session Class Initialized
+DEBUG - 2012-07-17 21:15:54 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 21:15:54 --> XSS Filtering completed
+DEBUG - 2012-07-17 21:15:54 --> Session routines successfully run
+DEBUG - 2012-07-17 21:15:54 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:54 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:54 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 21:15:54 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:54 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:54 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 21:15:54 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 21:15:54 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 21:15:54 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:54 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:54 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 21:15:54 --> Email Class Initialized
+DEBUG - 2012-07-17 21:15:54 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 21:15:54 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 21:15:54 --> Model Class Initialized
+DEBUG - 2012-07-17 21:15:54 --> Model Class Initialized
+DEBUG - 2012-07-17 21:15:54 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:54 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:54 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 21:15:54 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 21:15:54 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 21:15:54 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 21:15:54 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:54 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:54 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 21:15:54 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/basic/views/pages/show.php
+DEBUG - 2012-07-17 21:15:54 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/basic/views/../sidebars/main.php
+DEBUG - 2012-07-17 21:15:54 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/basic/views/../page_templates/default.php
+DEBUG - 2012-07-17 21:15:54 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/basic/views/../widgets/userbox.php
+DEBUG - 2012-07-17 21:15:54 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/basic/basic.php
+DEBUG - 2012-07-17 21:15:54 --> Final output sent to browser
+DEBUG - 2012-07-17 21:15:54 --> Total execution time: 0.1226
+DEBUG - 2012-07-17 21:15:55 --> Config Class Initialized
+DEBUG - 2012-07-17 21:15:55 --> Hooks Class Initialized
+DEBUG - 2012-07-17 21:15:55 --> Utf8 Class Initialized
+DEBUG - 2012-07-17 21:15:55 --> UTF-8 Support Enabled
+DEBUG - 2012-07-17 21:15:55 --> URI Class Initialized
+DEBUG - 2012-07-17 21:15:55 --> Router Class Initialized
+DEBUG - 2012-07-17 21:15:55 --> No URI present. Default controller set.
+DEBUG - 2012-07-17 21:15:55 --> Output Class Initialized
+DEBUG - 2012-07-17 21:15:55 --> Input Class Initialized
+DEBUG - 2012-07-17 21:15:55 --> Security Class Initialized
+DEBUG - 2012-07-17 21:15:55 --> CRSF cookie Set
+DEBUG - 2012-07-17 21:15:55 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-07-17 21:15:55 --> Language Class Initialized
+DEBUG - 2012-07-17 21:15:55 --> Loader Class Initialized
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: auth_helper
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: url_helper
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: flash_helper
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: form_helper
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: spotlights_helper
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: users_helper
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: friends_helper
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: views_helper
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: assets_helper
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: date_helper
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: acl_helper
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: router_helper
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: html_helper
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: settings_helper
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: ads_helper
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: fetch_helper
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: country_helper
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: text_helper
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: string_helper
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: gravatar_helper
+DEBUG - 2012-07-17 21:15:55 --> Database config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:55 --> Database Driver Class Initialized
+DEBUG - 2012-07-17 21:15:55 --> Controller Class Initialized
+DEBUG - 2012-07-17 21:15:55 --> TinyMapper class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: inflector_helper
+DEBUG - 2012-07-17 21:15:55 --> Session Class Initialized
+DEBUG - 2012-07-17 21:15:55 --> Encrypt Class Initialized
+DEBUG - 2012-07-17 21:15:55 --> XSS Filtering completed
+DEBUG - 2012-07-17 21:15:55 --> Session routines successfully run
+DEBUG - 2012-07-17 21:15:55 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:55 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:55 --> Config file loaded: application/config/facebook.php
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: file_helper
+DEBUG - 2012-07-17 21:15:55 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:55 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:55 --> Config file loaded: application/config/tweet.php
+DEBUG - 2012-07-17 21:15:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 21:15:55 --> Unit Testing Class Initialized
+DEBUG - 2012-07-17 21:15:55 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:55 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:55 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 21:15:55 --> Email Class Initialized
+DEBUG - 2012-07-17 21:15:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 21:15:55 --> Language file loaded: language/english/ion_auth_lang.php
+DEBUG - 2012-07-17 21:15:55 --> Model Class Initialized
+DEBUG - 2012-07-17 21:15:55 --> Model Class Initialized
+DEBUG - 2012-07-17 21:15:55 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:55 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:55 --> Config file loaded: application/config/ion_auth.php
+DEBUG - 2012-07-17 21:15:55 --> Helper loaded: cookie_helper
+DEBUG - 2012-07-17 21:15:55 --> Session class already loaded. Second attempt ignored.
+DEBUG - 2012-07-17 21:15:55 --> Language file loaded: language/english/unit_test_lang.php
+DEBUG - 2012-07-17 21:15:55 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:55 --> Config for development environment is not found. Trying global config.
+DEBUG - 2012-07-17 21:15:55 --> Config file loaded: application/config/layout.php
+DEBUG - 2012-07-17 21:15:55 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/basic/views/../spotlights/main.php
+DEBUG - 2012-07-17 21:15:55 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/basic/views/../sidebars/main.php
+DEBUG - 2012-07-17 21:15:55 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/basic/views/home/index.php
+DEBUG - 2012-07-17 21:15:55 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/basic/views/../widgets/userbox.php
+DEBUG - 2012-07-17 21:15:55 --> File loaded: /Users/Gavin/Sites/Rocketeer Basic/themes/basic/basic.php
+DEBUG - 2012-07-17 21:15:55 --> Final output sent to browser
+DEBUG - 2012-07-17 21:15:55 --> Total execution time: 0.1528
