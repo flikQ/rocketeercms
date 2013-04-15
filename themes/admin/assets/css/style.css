@@ -758,17 +758,17 @@ border-radius: 5px 5px 0 0;
 
 #footer .inner {max-width: 100%	; margin: 0 auto;  }
 
-#footer a {text-shadow: none; color: #ccc;}
+#footer a {text-shadow: none; color: #fff;}
 #footer p
 {
   line-height:18px;
-  color:#000;
+  color:#fff;
   font-weight: normal;
-  text-shadow: 1px 1px 0 #777;
+  text-shadow: 1px 1px 0 #444;
   font-size:11px;
   margin-bottom: 0;
   padding: 20px;
-  background: url(../img/rf-logo-200-50.png) no-repeat 98%;
+  background: url(../img/rocketeer-white.png) no-repeat 98%;
 
 }
 
@@ -1050,7 +1050,7 @@ float: left; margin-right: 10px;
 	border: solid 1px #ccc;
 	overflow: hidden
 }
-.filterby input[type="text"] {float: left; min-width: 300px !important; margin-right: 10px; padding: 7px 10px}
+.filterby input[type="text"] {float: left; min-width: 300px !important; margin-right: 10px; padding: 5px 10px; margin-top: -5px;}
 
 
 .filterby select

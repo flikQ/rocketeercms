@@ -16,10 +16,6 @@ if(! function_exists('fetch')) {
 				$model->limit((int) $options['limit']);
 				unset($options['limit']);
 			}
-			if(isset($options['status'])) {
-				$model->status((int) $options['status']);
-				unset($options['status']);
-			}
 			if(isset($options['offset'])) {
 				$model->offset((int) $options['offset']);
 				unset($options['offset']);
@@ -27,6 +23,7 @@ if(! function_exists('fetch')) {
 			if(isset($options['section'])) {
 				$section_name = ucfirst(singular($resource)).'_Section';
 				$section_model = new $section_name;
+				$section = $options['section'];
 				$section_model = $section_model->url_title ? $section_model->find_by_url_title($options['section']) : $section_model->find_by_url_name($options['section']);
 				if($section_model) {
 					$model->where('section_id', $section_model->id);
@@ -97,6 +94,63 @@ if(! function_exists('fetch')) {
 				}
 			}
 			
+			if($resource == 'articles')
+			{
+				//@Todo: Do this properly
+				foreach($result as $item)
+				{
+					$CI =& get_instance();
+					
+					$CI->db->select('ac.url_name');
+					$CI->db->from('article_categories ac');
+					$CI->db->join('article_categories_map acm', 'acm.category_id = ac.id');
+					$CI->db->where('acm.article_id', $item->id);
+					$CI->db->limit(1);
+					
+					$query = $CI->db->get();
+					
+					if($query->num_rows() == 1)
+					{
+						$row = $query->row();
+						
+						$item->category = new stdClass;
+						$item->category->url_name = $row->url_name;
+					}
+					else
+					{
+						$item->category = new stdClass;
+						$item->category->url_name = 'Unknown';
+					}
+
+					
+
+
+					if(isset($section) && $section == 'news'){
+
+						//get article_sync post count
+						$sync_post = $CI->db->where('article_sync', $item->id)->get('forum_posts')->result_array();
+
+						if(count($sync_post) > 0){
+
+							$thread = $CI->db->where('id', $sync_post[0]['thread_id'])->get('forum_threads')->result_array();
+
+							if(count($thread) > 0){
+
+								$item->post_count = $thread[0]['forum_posts_number'];
+								$item->thread_url = $thread[0]['id'] . '/' . $thread[0]['url_title'];
+
+							}
+						}
+
+						//$item->post_count = $item->id;
+						
+						
+					}
+				}
+			}
+
+
+			
 			return $result;
 		}
 	}
@@ -157,5 +211,152 @@ if(! function_exists('pagination')) {
 	}
 
 }
+
+if(! function_exists('fetch_posts')) {
+	
+	function fetch_posts($forum_id) {
+
+		$CI =& get_instance();
+					
+		$CI->db->select('fp.* ,ft.title, ft.url_title, ft.forum_id, ft.id as thread_id, ft.forum_posts_number');
+		$CI->db->from('forum_threads ft');
+		$CI->db->join('forum_posts fp', 'fp.thread_id = ft.id');
+		$CI->db->where('ft.forum_id', $forum_id);
+		$CI->db->where('ft.closed', 0);
+		$CI->db->order_by('updated_at', 'desc');
+		//$CI->db->limit(5);
+		
+		$query = $CI->db->get();
+
+		$posts = array();
+
+		if($query->num_rows() > 0)
+		{
+			foreach ($query->result_array() as $i) {
+				$post = $i;
+
+				$post['trim'] = $i['title'];
+
+				//finfout where it is
+				$post['page']= floor($post['forum_posts_number'] / 20) * 20;
+
+				//Add first to array
+				if(count($posts) == 0){
+					$posts[] = $post;
+				}
+
+				//is it unique
+				$unique = true;
+
+				foreach($posts as $p) {
+					
+					if($p['title'] == $i['title']){
+						$unique = false;
+					}
+				}
+
+				if($unique){
+					$posts[] = $post;
+				}
+
+				
+			} 
+		}
+
+		$posts = array_slice($posts, 0, 5);
+
+		return $posts;
+		
+		
+		
+	}
+	
+}
+
+if(! function_exists('fetch_post')) {
+	
+	function fetch_post($forum_id) {
+
+		$CI =& get_instance();
+					
+		$CI->db->select('fp.* ,ft.title, ft.url_title, ft.forum_id, ft.id as thread_id, ft.forum_posts_number, u.username as username, u.avatar_thumb_url as thumb');
+		$CI->db->from('forum_threads ft');
+		$CI->db->join('forum_posts fp', 'fp.thread_id = ft.id');
+		$CI->db->join('users u', 'fp.user_id = u.id');
+		$CI->db->where('ft.forum_id', $forum_id);
+		$CI->db->where('ft.closed', 0);
+		$CI->db->order_by('updated_at', 'desc');
+		//$CI->db->limit(5);
+		
+		$query = $CI->db->get();
+
+		$posts = array();
+
+		if($query->num_rows() > 0)
+		{
+			foreach ($query->result_array() as $i) {
+				$post = $i;
+
+				$post['trim'] = $i['title'];
+				$post['date'] = $i['created_at'];
+				$post['user'] = $i['username'];
+				$post['thumb'] = $i['thumb'];
+
+				//finfout where it is
+				$post['page']= floor($post['forum_posts_number'] / 20) * 20;
+
+				//Add first to array
+				if(count($posts) == 0){
+					$posts[] = $post;
+				}
+
+				//is it unique
+				$unique = true;
+
+				foreach($posts as $p) {
+					
+					if($p['title'] == $i['title']){
+						$unique = false;
+					}
+				}
+
+				if($unique){
+					$posts[] = $post;
+				}
+
+				
+			} 
+		}
+
+		$posts = array_slice($posts, 0, 1);
+
+		return $posts;
+		
+		
+		
+	}
+	
+}
+
+function multi_unique($array) {
+    foreach ($array as $k=>$na)
+        $new[$k] = serialize($na);
+    $uniq = array_unique($new);
+    foreach($uniq as $k=>$ser)
+        $new1[$k] = unserialize($ser);
+    return ($new1);
+}
+
+function add_ellipsis($string, $length, $end='?')
+{
+  if (strlen($string) > $length)
+  {
+    $length -=  strlen($end);  // $length =  $length ? strlen($end);
+    $string  = substr($string, 0, $length);
+    $string .= $end;  //  $string =  $string . $end;
+  }
+  return $string;
+}
+
 
 

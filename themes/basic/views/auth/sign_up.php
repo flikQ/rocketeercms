@@ -49,8 +49,6 @@
 				<h3>Already have an account?</h3>
 				<ul>
 					<li><a class="button left marg-r-10" href="/login">Log In</a></li>
-					<li><a class="button fb left marg-r-10" href="/auth/fb_sign_in">Sign in with Facebook</a></li>
-					<li><a class="button twit left" href="/auth/twt_sign_in">Sign in with Twitter</a></li>
 				</ul>
 			</div>
 		</div>

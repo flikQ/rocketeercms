@@ -34,6 +34,7 @@
 					<li <?php if($this->uri->segment(1) == ''): echo 'class="active"'; endif; ?>><a href="/">Home</a></li>
 					<li <?php if($this->uri->segment(2) == 'news'): echo 'class="active"'; endif; ?>><a href="/articles/news">News</a></li>
 					<li <?php if($this->uri->segment(2) == 'blogs'): echo 'class="active"'; endif; ?>><a href="/articles/blogs">Blogs</a></li>
+					<li <?php if($this->uri->segment(1) == 'forums'): echo 'class="active"'; endif; ?>><a href="/forums">Forums</a></li>
 					<li <?php if($this->uri->segment(1) == 'about'): echo 'class="active"'; endif; ?>><a href="/about">About</a></li>
 				</ul>
 			</nav>
@@ -42,8 +43,8 @@
 			
 				
 			<footer>
-				<p class="copyright">Copyright &copy; Rocketeer CMS 2012. All rights reserved.</p>
-				<p class="rocket-link">Blueprint theme for <a href="http://www.rocketeercms.com">Rocketeer CMS</a></p>
+				<p class="copyright">Copyright &copy; Rocketeer CMS 2011-<?php echo date('Y')?>. All rights reserved.</p>
+				<p class="rocket-link">Basic theme for <a href="http://www.rocketeercms.com">Rocketeer CMS</a></p>
 			</footer>		
 		</div>
 	</body>

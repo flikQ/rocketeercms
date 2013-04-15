@@ -167,7 +167,7 @@ if ( ! function_exists('form_input'))
 {
 	function form_input($data = '', $value = '', $extra = '')
 	{
-		$value = $value == '' ? flash('field_'.$data) : $value;
+		//$value = $value == '' ? flash('field_'.$data) : $value;
 		$defaults = array('type' => 'text', 'name' => (( ! is_array($data)) ? $data : ''), 'value' => $value);
 
 		return "<input "._parse_form_attributes($data, $defaults).$extra." />";

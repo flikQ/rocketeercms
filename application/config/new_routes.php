@@ -48,6 +48,19 @@ $route = array(
 	// Pages
 	'page' => array(':page', 'pages/show/title/$1'),
 	'sub_page' => array(':page/:sub_page', 'pages/show/title/$2'),
+	
+	// Forums
+	'forums' => array('forums', 'forums/index'),
+	'forum_threads' => array('forums/:name/page/:page', 'forums/show_threads/name/$1/page/$2'),
+	'new_forum_thread' => array('forums/:name/new', 'forums/new_thread/name/$1'),
+	'create_forum_thread' => array('forums/:name/create', 'forums/create_thread/name/$1'),
+	'forum_thread' => array('forums/:name/:id/:title/page/:page', 'forums/show_thread/name/$1/title/$3/id/$2/page/$4'),
+	'edit_forum_thread' => array('forums/:name/:id/:title/edit', 'forums/edit_thread/name/$1/title/$3/id/$2'),
+	'update_forum_thread' => array('forums/:name/:id/:title/update', 'forums/update_thread/name/$1/title/$3/id/$2'),
+	'new_forum_post' => array('forums/:name/:id/:title/new', 'forums/new_post/name/$1/title/$3/id/$2'),
+	'create_forum_post' => array('forums/:name/:id/:title/create', 'forums/create_post/name/$1/title/$3/id/$2'),
+	'edit_forum_post' => array('forums/:name/:id/:title/:post_id/edit', 'forums/edit_post/name/$1/title/$2/id/$3/post_id/$4'),
+	'update_forum_post' => array('forums/:name/:id/:title/:post_id/update', 'forums/update_post/name/$1/title/$2/id/$3/post_id/$4'),
 		
 );
 
