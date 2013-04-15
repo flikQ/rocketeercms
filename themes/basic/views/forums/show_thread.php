@@ -52,12 +52,6 @@
 					<?= link_to($post->user->username, profile_url($post->user->username)) ?></h3>
 				<?php if($post->user->group_id == 1): ?> 
 					<span class="is-admin">Admin</span>
-				<?php elseif($post->user->group_id == 4) :?>
-					<span class="is-team">Team Member</span>
-				<?php elseif($post->user->group_id == 6): ?>
-					<span class="is-mod">Moderator</span>
-				<?php else: ?>
-					
 				<?php endif;?>
 				
 				<span class="name"><?= $post->user->forum_posts_number ?> posts</span>

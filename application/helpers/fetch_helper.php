@@ -94,62 +94,6 @@ if(! function_exists('fetch')) {
 				}
 			}
 			
-			if($resource == 'articles')
-			{
-				//@Todo: Do this properly
-				foreach($result as $item)
-				{
-					$CI =& get_instance();
-					
-					$CI->db->select('ac.url_name');
-					$CI->db->from('article_categories ac');
-					$CI->db->join('article_categories_map acm', 'acm.category_id = ac.id');
-					$CI->db->where('acm.article_id', $item->id);
-					$CI->db->limit(1);
-					
-					$query = $CI->db->get();
-					
-					if($query->num_rows() == 1)
-					{
-						$row = $query->row();
-						
-						$item->category = new stdClass;
-						$item->category->url_name = $row->url_name;
-					}
-					else
-					{
-						$item->category = new stdClass;
-						$item->category->url_name = 'Unknown';
-					}
-
-					
-
-
-					if(isset($section) && $section == 'news'){
-
-						//get article_sync post count
-						$sync_post = $CI->db->where('article_sync', $item->id)->get('forum_posts')->result_array();
-
-						if(count($sync_post) > 0){
-
-							$thread = $CI->db->where('id', $sync_post[0]['thread_id'])->get('forum_threads')->result_array();
-
-							if(count($thread) > 0){
-
-								$item->post_count = $thread[0]['forum_posts_number'];
-								$item->thread_url = $thread[0]['id'] . '/' . $thread[0]['url_title'];
-
-							}
-						}
-
-						//$item->post_count = $item->id;
-						
-						
-					}
-				}
-			}
-
-
 			
 			return $result;
 		}

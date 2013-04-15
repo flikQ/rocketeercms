@@ -445,11 +445,8 @@ footer {
 	.started_by a {display: inline; padding: 0; color: #666; font-weight: normal;
 	}
 	
-#the-posts {}
-#the-posts li { padding-top: 0px; padding-bottom: 10px; overflow: hidden; background: url(../images/forum/member.png) top left no-repeat; position: relative; clear: both;}
-	#the-posts li.team-member {background: url(../images/forum/paradigm.png) top left no-repeat}
-	#the-posts li.mod-member {background: url(../images/forum/moderator.png) top left no-repeat}
-	#the-posts li.admin-member {background: url(../images/forum/admin.png) top left no-repeat}
+#the-posts {margin-bottom: 10px;}
+#the-posts li { padding-top: 0px; padding-bottom: 10px; overflow: hidden; position: relative; clear: both; border-bottom: solid 2px #eee;}
 	#the-posts .post-author {float: left; width: 250px; margin-right: 20px; padding: 20px 20px 20px 0; min-height: 110px}
 		#the-posts .user-buttons {position: absolute; top: 124px; left: 20px; padding: 0px; overflow: hidden; width: 100%}
 		#the-posts .user-buttons .generic_button {font-family: WebSymbolsRegular; font-weight: normal; height: 20px; line-height: 20px; font-size: 10px}
